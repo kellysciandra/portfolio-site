@@ -29,7 +29,7 @@ function NavBar() {
     return (
         <div>
         <Navbar className='nav_bar' expand="lg" >
-        <Navbar.Brand href="/">bonjovie</Navbar.Brand>/
+        <Navbar.Brand href="/">kellysciandradev</Navbar.Brand>/
         {/* {returnProject()}
         {returnPallet()} */}
         {returnTitle()}
