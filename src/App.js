@@ -19,11 +19,11 @@ class App extends Component {
     <div>
     <Router history={history}>
       <NavBar/>
-      <WidthAndHeight/>
+      {/* <WidthAndHeight/> */}
       <Switch>
         <Route exact path="/" component={Home}/>
-        <Route exact path="/pallets" component={Pallets}/>
-        <Route exact path="/pallets/1" component={Pallets1}/>
+        {/* <Route exact path="/pallets" component={Pallets}/>
+        <Route exact path="/pallets/1" component={Pallets1}/> */}
         <Route exact path="/projects" component={Projects}/>
       </Switch>
     </Router>

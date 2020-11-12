@@ -1,108 +1,135 @@
 * {
   display: inline-flexbox;
+  
 }
 
 .nav_bar {
   margin-bottom: -5%;
-  border-bottom: 10px solid black;
-  font-family: 'Oswald', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: 'Roboto Mono', monospace;
   margin-left: 10%;
   width: 80%;
   padding: 50px;
-
 }
+
 .main {
-  background-image: url('./images/kelly.png');
   margin-top: 10%;
 }
 
 .link_text {
-  color:  rgb(63, 204, 206);
-  font-size: 2em;
+  color:  rgb(225, 162, 255);
+  font-size: 1em;
 }
 
 .link_set {
-  margin-left: 50%;
   font-size: 1.2em;
-
+  margin-top: 50%;
 }
+
 i.fab, i.fas  {
-  color:  rgb(63, 204, 206);
+  color:  rgb(0, 0, 0);
+  opacity: 75%;
+  padding: .25rem;
+
 }
 
-.title {
+/* .title {
   margin-left: 30%;
   font-size: 3em;
   color: rgb(69, 203, 207);
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .title_2 {
   margin-left: 50%;
-  margin-top: 20%;
-  margin-bottom: 55%;
-  font-size: 8em;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2em;
   color: #5CDB95;
   font-family: 'Oswald', sans-serif;
+} */
+
+.my-links {
+  display: flex;
+  align-items: center;
+  margin-left: 35%;
+  opacity: 86%;;
 }
 
 .git-box {
-  margin-left: 25%;
-  width: 50%;
-  background-color: rgb(235, 233, 112);
-  border: 10px solid rgb(63, 204, 206);
-  padding: 75px;
-  border-radius: 100px;
+  display: inline;
+  margin: 5%;
 }
-.hover_g {
+/* .hover_g {
   display: inline;
   color:  rgb(63, 204, 206);  
-  font-family: 'Oswald', sans-serif;
-}
+  font-family: 'Roboto Mono', monospace;
+} */
 .linkedin-box {
-  margin-top: 5%;
-  margin-left: 25%;
-  width: 50%;
-  background-color: rgb(235, 233, 112);
-  border: 10px solid rgb(63, 204, 206);
-  padding: 75px;
-  border-radius: 100px;
+  display: inline;
+  margin: 5%;
 }
-.hover_l {
+/* .hover_l {
   display: inline;
   color:  rgb(63, 204, 206);
-  font-family: 'Oswald', sans-serif;
-}
+  font-family: 'Roboto Mono', monospace;
+} */
 .insta-box {
-  margin-top: 5%;
-  margin-left: 25%;
-  margin-bottom: 5%;
-  width: 50%;
-  background-color: rgb(235, 233, 112);
-  border: 10px solid rgb(63, 204, 206);
-  padding: 75px;
-  border-radius: 100px;
+  display: inline;
+  margin: 5%;
 }
-.hover_i {
+/* .hover_i {
   display: inline;
   color:  rgb(63, 204, 206);
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+} */
+
+
+.photo {
+  background-image: url('./images/Beattree.png');
+  box-shadow: inset 0px 0px 40px 40px rgb(47, 169, 217);
+  background-repeat: unset;
+  background-size: 4px auto;
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-bottom: 5%;
 }
 
 .contact_text {
-  border: 10px solid;
-  padding: 15px;
-  border-radius: 100px;
-  margin-left: 80%;
-  background-color: rgb(235, 233, 112);
+  margin-left: 50%;
 }
 
 .contact {
   margin-left: 10%;
   width: 80%;
   padding: 50px;
-  border-top: 10px solid 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* not currently active 
 
 .sub_title {
   text-align: center;
@@ -129,14 +156,12 @@ i.fab, i.fas  {
   font-family: 'Oswald', sans-serif;
 }
 
-
 .image_1 {
   display: flex;
   width: 30%;
   margin-left: 40%;;
   opacity: .9;
 }
-
 
 .card_image {
   display: flex;
@@ -180,8 +205,6 @@ color: #5CDB95;
   margin-left: 55px;
 }
 
-
-
 .card_title {
   margin: auto;
   text-align: center;
@@ -210,8 +233,6 @@ color: #5CDB95;
   text-align: center;
   margin-top: -80px;
 }
-
-
 
 .card_sub_title {
   text-align: center;
@@ -251,7 +272,6 @@ color: #5CDB95;
 }
 
 
-
 .next_page {
   border: 2px solid #5CDB95;
   padding: 18px;
@@ -260,13 +280,12 @@ color: #5CDB95;
   background-color: #5CDB95;
   font-family: 'Oswald', sans-serif;
   color: #05386B; 
-}
-
+} */
 
 
 /* PALLET FIRST PAGE  */
 
-.pallet_1 {
+/* .pallet_1 {
  
   padding: 30px;
   margin-left: 20%;
@@ -384,14 +403,14 @@ color: #5CDB95;
   margin-right: -50%;
   margin-top: -40%;
   font-family: 'Oswald', sans-serif;
-}
+} */
 
 
 
 
 /* PALLET SECOND PAGE  */
 
-.pallet_11 {
+/* .pallet_11 {
   border: 2px solid #F5E6CC;
   background-color: #F5E6CC;
   padding: 30px;
@@ -489,4 +508,4 @@ color: #5CDB95;
   margin-left: 50%;
   width: 25%;
   border: 2px dotted #D2FDFF;
-}
+} */

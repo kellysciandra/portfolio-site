@@ -17,10 +17,10 @@ function NavBar() {
     };
 
     const returnTitle = () => {
-        if (width >= 1317) return  <h1 className='title'>Full Stack Web Developer</h1> 
+        if (width >= 1317) return  <h1 className='title'></h1> 
     }
     const returnPallet = () => {
-        if (width >= 1021) return  <Nav.Link href='/pallets' className='link_text'>palettes</Nav.Link>
+        if (width >= 1021) return  <Nav.Link href='/pallets' className='link_text'>about</Nav.Link>
     }
     const returnProject = () => {
         if (width >= 518) return  <Nav.Link href="/projects" className='link_text'>projects</Nav.Link>
@@ -28,12 +28,25 @@ function NavBar() {
 
     return (
         <div>
-        <Navbar className='nav_bar' expand="lg" >
-        <Navbar.Brand href="/">bonjovie</Navbar.Brand>/
-        {/* {returnProject()}
-        {returnPallet()} */}
-        {returnTitle()}
-        </Navbar>
+
+            
+            <Navbar className='nav_bar' expand="lg" >
+            <Navbar.Brand href="/">kellysciandradev</Navbar.Brand>/
+            {returnProject()}
+            {returnPallet()}
+            {returnTitle()}
+            <div className='contact'>
+                        <div className='contact_text'>
+                        <a href='https://linkedin.com/in/kelly-sciandra-464b371a0'><i class="fab fa-linkedin-in fa-2x"></i></a>
+                        <a href='mailto:kellysciandradev@icloud.com'><i class="fas fa-envelope-square fa-2x"></i></a>
+                        <a href='https://open.spotify.com/artist/0JyCM9EwjQZZzQPGTSM1qc'><i class="fab fa-spotify fa-2x"></i></a>
+                        <a href='https://github.com/kellysciandra'><i class="fab fa-github fa-2x"></i></a>
+                        <a href='https://www.instagram.com/kellynobody/'><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+            </Navbar>
+
+        
         </div>
     );
 }
