@@ -28,6 +28,7 @@ function NavBar() {
 
     return (
         <div>
+<<<<<<< HEAD
 
             
             <Navbar className='nav_bar' expand="lg" >
@@ -47,6 +48,14 @@ function NavBar() {
             </Navbar>
 
         
+=======
+        <Navbar className='nav_bar' expand="lg" >
+        <Navbar.Brand href="/">kellysciandradev</Navbar.Brand>/
+        {/* {returnProject()}
+        {returnPallet()} */}
+        {returnTitle()}
+        </Navbar>
+>>>>>>> 9149fd391d876e18ec5656aa4c4d437b5c11b800
         </div>
     );
 }
