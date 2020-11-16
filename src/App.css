@@ -1,48 +1,3 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-.nav_bar {
-  border: 20px solid;
-  border-color: rgb(245, 94, 94);
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -58,9 +13,9 @@
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  /* [class*="col-"] {
+  [class*="col-"] {
     width: 100%;
-  } */
+  } 
   .nav_bar {
     margin: 0rem;
     padding: 2rem;
@@ -94,6 +49,7 @@
   }
 
   .footer_mobile {
+    display: inline-flex;
     font-size: .5rem;
     margin-left: 10%;
     margin-top: -10%;
@@ -104,10 +60,17 @@
 @media only screen and (max-width: 1380px) {
   /* For mobile phones: */
   .contact_text {
-   display: inline-flex
+   display: inline-flex;
+   margin-top: 5%;
   }
 
   .photo {
     display: inline-flex;
+    background-repeat: none;
+    height: 80%;
+  }
+
+  .link_text {
+   
   }
 }
