@@ -18,32 +18,24 @@
   }  */
 
   * {
-    border: 1px solid greenyellow;
+    margin: auto;
     
   }
 
   body {
-  
     padding-bottom: 50px;
   }
+
   .nav_bar {
-  
     margin: 0rem;
     padding: 2rem;
   }
-
-  div, div.main {
-
-  }
-
   i.fab, i.fas  {
-
     font-size: 1.5rem;
-   
     padding: .3rem;
   }
-  .contact_text {
 
+  .contact_text {
     padding: 0rem;
     margin-left: 25%;
     display: inline-flex;
@@ -51,14 +43,27 @@
    }
 
   .contact {
-
     margin: 0rem;
     padding: 0rem;
   }
 
-  .photo {
+  .main {
+    margin: 0;
+  }
 
+  .photo {
+    display: none;
+  }
+
+  .photo_mobile {
+    display: inline-flex;
     width: 70%;
+    background-image: url('./images/Beattree.png');
+    box-shadow: inset 0px 0px 40px 40px rgb(47, 169, 217);
+    background-repeat: unset;
+    background-size: 4px auto;
+    margin-left: 8%;
+    margin-bottom: 5%;
   }
 
   img {

@@ -38,9 +38,9 @@ function NavBar() {
             <div className='contact'>
             <div className='contact_text'>
             <a href='https://linkedin.com/in/kelly-sciandra-464b371a0'><i class="fab fa-linkedin-in fa-2x"></i></a>
+            <a href='https://github.com/kellysciandra'><i class="fab fa-github fa-2x"></i></a>
             <a href='mailto:kellysciandradev@icloud.com'><i class="fas fa-envelope-square fa-2x"></i></a>
             <a href='https://open.spotify.com/artist/0JyCM9EwjQZZzQPGTSM1qc'><i class="fab fa-spotify fa-2x"></i></a>
-            <a href='https://github.com/kellysciandra'><i class="fab fa-github fa-2x"></i></a>
             <a href='https://www.instagram.com/kellynobody/'><i class="fab fa-instagram fa-2x"></i></a>
             </div>
             </div>

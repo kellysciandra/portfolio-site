@@ -22,7 +22,22 @@ export default class Home extends Component {
                     <a href='https://reallygoodrecipes.net'><img src={really_good} alt='' height='400' width='400'  className='link_text'/></a> 
                     <a href='https://itsjoya.com'><img src={joya} alt='' height='400' width='400'  className='link_text'/></a> 
                     </div>
-                    <br></br> <br></br> <br></br> <br></br> <br></br> 
+                    
+                    {/* photo_mobile */}
+
+                    <div className='photo_mobile'>
+                    <a href='https://unreleased.dev'><img src={unreleased}  alt='' height='50' width='50'   className='link_text'></img></a>
+                    </div>
+                    
+                    <div className='photo_mobile'>
+                    <a href='https://reallygoodrecipes.net'><img src={really_good} alt='' height='200' width='200'  className='link_text'/></a> 
+                    </div>
+                    <div className='photo_mobile'>
+                    <a href='https://itsjoya.com'><img src={joya} alt='' height='200' width='200'  className='link_text'/></a> 
+                    </div>
+                   
+                    
+                    <br></br> <br></br> 
                 </div>
                 <div className='footer'>
                     2020kellysciandradev2020kellysciandradev2020kellysciandradev2020kellysciandradev2020kellysciandradev2020kellysciandradev2020kellysciandradev2020kellysciandradev

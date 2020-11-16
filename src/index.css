@@ -22,12 +22,10 @@
 
 .link_set {
   font-size: 1.2em;
-  margin-top: 50%;
 }
 
 i.fab, i.fas  {
   color:  rgb(0, 0, 0);
-  /* opacity: 75%; */
   padding: .3rem;
 }
 
@@ -96,6 +94,10 @@ i.fab, i.fas  {
   margin-left: 5%;
   margin-right: 10%;
   margin-bottom: 5%;
+}
+
+.photo_mobile {
+  display: none;
 }
 
 .contact_text {
