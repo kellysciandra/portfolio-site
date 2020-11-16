@@ -25,7 +25,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy-production": "react-scripts build && scp -r ./build/* kelly@157.245.134.29:/var/www/kellysciandradev.com/html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
