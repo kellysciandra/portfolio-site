@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import Card from 'react-bootstrap/Card'
+// import Card from 'react-bootstrap/Card'
 
-import  Sinatra  from '../images/Sinatra.png'
-import  Rails from '../images/Rails.png'
-import  Beattree from '../images/Beattree.png'
+// import  Sinatra  from '../images/Sinatra.png'
+// import  Rails from '../images/Rails.png'
+// import  Beattree from '../images/Beattree.png'
 
 export default class Projects extends Component {
     
