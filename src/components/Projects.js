@@ -15,8 +15,12 @@ export default class Projects extends Component {
         return (
 
             <div> 
+                <h1 className='title'>
+                i know, i know, i know 
+                (i'm working on it)
+                </h1>
 
-            <Card className='card_image_3'>
+            {/* <Card className='card_image_3'>
             <Card.Img src={Sinatra} alt="Card image" />
             <Card.ImgOverlay>
             <Card.Text>Billpay / Built with Sinatra </Card.Text>
@@ -44,14 +48,8 @@ export default class Projects extends Component {
                 </Card.Text>
                 <Card.Text>g<a  className='a' href="https://github.com/kellysciandra/TourKeyboards">i</a>t</Card.Text>
                 </Card.ImgOverlay>
-            </Card>
+            </Card> */}
 
-        <div className='contact'>
-                <div className='contact_text'>
-                <a href='mailto:kellysciandradev@icloud.com'><i class="fas fa-envelope-square fa-3x"></i></a>
-                <a href='https://open.spotify.com/artist/0JyCM9EwjQZZzQPGTSM1qc'><i class="fab fa-spotify fa-3x"></i></a>
-                </div>
-                </div>
 
             </div>
         )

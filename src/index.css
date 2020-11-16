@@ -1,6 +1,5 @@
 * {
-  display: inline-flexbox;
-  
+  /* display: inline-flexbox; */
 }
 
 .nav_bar {
@@ -32,12 +31,17 @@ i.fab, i.fas  {
   padding: .3rem;
 }
 
-/* .title {
-  margin-left: 30%;
-  font-size: 3em;
+ .title {
+  font-size: 2em;
+  padding: 5%;
   color: rgb(69, 203, 207);
   font-family: 'Roboto Mono', monospace;
-}
+  text-align: center;
+  font-style: oblique;
+  box-shadow: inset 0px 0px 40px 40px rgb(47, 169, 217);
+
+
+} 
 
 .title_2 {
   margin-left: 50%;
@@ -45,7 +49,7 @@ i.fab, i.fas  {
   font-size: 2em;
   color: #5CDB95;
   font-family: 'Oswald', sans-serif;
-} */
+} 
 
 .my-links {
   display: flex;

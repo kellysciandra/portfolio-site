@@ -7,34 +7,11 @@ export default class Home extends Component {
     constructor() {
         super()
         this.state = {
-            git: '',
-            linkedin: '',
-            instagram: ''
+  
         }
     }
 
-    handleGit(e) {
-        this.setState({
-            git: 'GITHUB'
-        })
-    }
-    handleLinkedIn(e) {
-        this.setState({
-            linkedin: 'LinkedIn'
-        })  
-    }
-    handleInstagram(e) {
-        this.setState({
-            instagram: 'INSTAGRAM'
-        })
-    }
-    onMouseOut() {
-        this.setState({
-            git: '',
-            linkedin: '',
-            instagram: ''
-        })
-    }
+
 
     render() {
         return (

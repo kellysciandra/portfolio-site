@@ -12,8 +12,9 @@ export default class About extends Component {
         return (
             <div>
                 
-                <div className='about'>
-                this is my about page 
+                <div className='title'>
+                i know, i know, i know 
+                (i'm working on it)
                 </div>
 
         
