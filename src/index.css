@@ -1,10 +1,6 @@
-* {
-  /* display: inline-flexbox; */
-}
 
 .nav_bar {
   margin-bottom: -5%;
-  /* font-family: 'Oswald', sans-serif; */
   font-family: 'Roboto Mono', monospace;
   margin-left: 10%;
   width: 80%;
@@ -56,35 +52,6 @@ i.fab, i.fas  {
   opacity: 86%;;
 }
 
-.git-box {
-  display: inline;
-  margin: 5%;
-}
-/* .hover_g {
-  display: inline;
-  color:  rgb(63, 204, 206);  
-  font-family: 'Roboto Mono', monospace;
-} */
-.linkedin-box {
-  display: inline;
-  margin: 5%;
-}
-/* .hover_l {
-  display: inline;
-  color:  rgb(63, 204, 206);
-  font-family: 'Roboto Mono', monospace;
-} */
-.insta-box {
-  display: inline;
-  margin: 5%;
-}
-/* .hover_i {
-  display: inline;
-  color:  rgb(63, 204, 206);
-  font-family: 'Roboto Mono', monospace;
-} */
-
-
 .photo {
   display: inline-flex;
   background-image: url('./images/Beattree.png');
@@ -101,13 +68,14 @@ i.fab, i.fas  {
 }
 
 .contact_text {
-  margin-left: 50%;
+  display: inline-flex;
+  margin-left: 30%;
+  width: 80%;
+  padding: 50px;
 }
 
 .contact {
-  margin-left: 10%;
-  width: 80%;
-  padding: 50px;
+  margin-left: 20%;
 }
 
 .footer {

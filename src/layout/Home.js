@@ -11,8 +11,6 @@ export default class Home extends Component {
         }
     }
 
-
-
     render() {
         return (
             <div>
@@ -38,6 +36,7 @@ export default class Home extends Component {
                    
                     
                     <br></br> <br></br> 
+
                 </div>
                 <div className='footer'>
                     2020kellysciandradev2020kellysciandradev2020kellysciandradev2020kellysciandradev2020kellysciandradev2020kellysciandradev2020kellysciandradev2020kellysciandradev
