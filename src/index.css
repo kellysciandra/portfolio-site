@@ -28,7 +28,7 @@
 
 i.fab, i.fas  {
   color:  rgb(0, 0, 0);
-  opacity: 75%;
+  /* opacity: 75%; */
   padding: .3rem;
 }
 
