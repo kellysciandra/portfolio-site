@@ -41,9 +41,9 @@ export default class Home extends Component {
             <div>
                 <div className='main'> 
                     <div className='photo'>    
-                    <a href='https://unreleased.dev'><img src={unreleased} height='400' width='400'   className='link_text'></img></a>
-                    <a href='https://reallygoodrecipes.net'><img src={really_good} height='400' width='400'  className='link_text'/></a> 
-                    <a href='https://itsjoya.com'><img src={joya} height='400' width='400'  className='link_text'/></a> 
+                    <a href='https://unreleased.dev'><img src={unreleased}  alt='' height='400' width='400'   className='link_text'></img></a>
+                    <a href='https://reallygoodrecipes.net'><img src={really_good} alt='' height='400' width='400'  className='link_text'/></a> 
+                    <a href='https://itsjoya.com'><img src={joya} alt='' height='400' width='400'  className='link_text'/></a> 
                     </div>
                     <br></br> <br></br> <br></br> <br></br> <br></br> 
                 </div>
@@ -64,45 +64,3 @@ export default class Home extends Component {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-                    {/* 
-                        hover link feature
-                        <div className='my-links'>
-               
-                        <div className='linkedin-box'>
-                        <span >
-                        <a onMouseLeave={() => this.onMouseOut()} onMouseOver={() => this.handleLinkedIn()} href={'https://linkedin.com/in/kelly-sciandra-464b371a0'}>
-                        <i class="fab fa-linkedin-in fa-3x"></i>
-                        <h2 className='hover_l'>{this.state.linkedin}</h2>
-                        </a>
-                        </span>
-                        </div>
-
-                        <div className='git-box'>
-                        <span>
-                        <a onMouseLeave={() => this.onMouseOut()} onMouseOver={() => this.handleGit()} href={'https://github.com/kellysciandra'}>
-                        <i class="fab fa-github fa-3x"></i>
-                        <h2 className='hover_g'>{this.state.git}</h2> 
-                        </a>
-                        </span>
-                        </div>
-                
-                        <div className='insta-box'>
-                        <span>
-                        <a onMouseLeave={() => this.onMouseOut()} onMouseOver={() => this.handleInstagram()} href={'https://www.instagram.com/kellynobody/'}>
-                        <i class="fab fa-instagram fa-3x"></i>
-                        <h2 className='hover_i'>{this.state.instagram}</h2> 
-                        </a>
-                        </span>
-                        </div>
-                    </div> */}

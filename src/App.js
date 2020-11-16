@@ -7,7 +7,7 @@ import { Router, Switch, Route } from 'react-router-dom'
 import history from './history'
 import  About  from './components/About'
 import  Projects  from './components/Projects'
-import WidthAndHeight from './layout/WidthAndHeight'
+// import WidthAndHeight from './layout/WidthAndHeight'
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
