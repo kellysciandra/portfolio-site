@@ -40,19 +40,20 @@ export default class Home extends Component {
         return (
             <div>
                 <div className='main'> 
-
-                    
-
-                        <div className='photo'>    
-                        <a href='https://unreleased.dev'><img src={unreleased} height='400' width='400'   className=''></img></a>
-                        <a href='https://reallygoodrecipes.net'><img src={really_good} height='400' width='400'  className=''/></a> 
-                        <a href='https://itsjoya.com'><img src={joya} height='400' width='400'  className=''/></a> 
-                       
-              
-                        </div>
+                    <div className='photo'>    
+                    <a href='https://unreleased.dev'><img src={unreleased} height='400' width='400'   className='link_text'></img></a>
+                    <a href='https://reallygoodrecipes.net'><img src={really_good} height='400' width='400'  className='link_text'/></a> 
+                    <a href='https://itsjoya.com'><img src={joya} height='400' width='400'  className='link_text'/></a> 
+                    </div>
+                    <br></br> <br></br> <br></br> <br></br> <br></br> 
+                </div>
+                <div className='footer'>
+                    2020kellysciandradev2020kellysciandradev2020kellysciandradev2020kellysciandradev2020kellysciandradev2020kellysciandradev2020kellysciandradev2020kellysciandradev
+                </div>
+                <div className='footer_mobile'>
+                    2020kellysciandradev2020kellysciandradev2020
                 </div>
 
-      
             </div>
         )
     }

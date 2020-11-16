@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+.nav_bar {
+  border: 20px solid;
+  border-color: rgb(245, 94, 94);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +41,73 @@
     transform: rotate(360deg);
   }
 } */
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  /* [class*="col-"] {
+    width: 100%;
+  } */
+  .nav_bar {
+    margin: 0rem;
+    padding: 2rem;
+  }
+
+  i.fab, i.fas  {
+    font-size: 1.5rem;
+    padding: .3rem;
+  }
+  .contact_text {
+    padding: 0rem;
+    margin-left: 25%;
+   }
+
+  .contact {
+    margin: 0rem;
+    padding: 0rem;
+  }
+
+  .photo {
+    width: 70%;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .footer_mobile {
+    font-size: .5rem;
+    margin-left: 10%;
+    margin-top: -10%;
+  }
+}
+
+
+@media only screen and (max-width: 1380px) {
+  /* For mobile phones: */
+  .contact_text {
+   display: inline-flex
+  }
+
+  .photo {
+    display: inline-flex;
+  }
+}

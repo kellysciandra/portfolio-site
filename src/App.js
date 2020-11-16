@@ -5,8 +5,7 @@ import NavBar from './layout/NavBar'
 import { connect } from 'react-redux';
 import { Router, Switch, Route } from 'react-router-dom'
 import history from './history'
-import  Pallets  from './components/Pallets'
-import  Pallets1  from './components/Pallets1'
+import  About  from './components/About'
 import  Projects  from './components/Projects'
 import WidthAndHeight from './layout/WidthAndHeight'
 
@@ -22,8 +21,7 @@ class App extends Component {
       {/* <WidthAndHeight/> */}
       <Switch>
         <Route exact path="/" component={Home}/>
-        {/* <Route exact path="/pallets" component={Pallets}/>
-        <Route exact path="/pallets/1" component={Pallets1}/> */}
+        <Route exact path="/about" component={About}/>
         <Route exact path="/projects" component={Projects}/>
       </Switch>
     </Router>

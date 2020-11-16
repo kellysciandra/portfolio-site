@@ -29,8 +29,7 @@
 i.fab, i.fas  {
   color:  rgb(0, 0, 0);
   opacity: 75%;
-  padding: .25rem;
-
+  padding: .3rem;
 }
 
 /* .title {
@@ -85,6 +84,7 @@ i.fab, i.fas  {
 
 
 .photo {
+  display: inline-flex;
   background-image: url('./images/Beattree.png');
   box-shadow: inset 0px 0px 40px 40px rgb(47, 169, 217);
   background-repeat: unset;
@@ -104,8 +104,28 @@ i.fab, i.fas  {
   padding: 50px;
 }
 
+.footer {
+  font-family: 'Roboto Mono', monospace;
+  font-size: .75rem;
+  margin-left: 7%;
+  margin-bottom: 5%;;
+}
 
+.footer_mobile {
+  display: none;
+  font-family: 'Roboto Mono', monospace;
+  font-size: .75rem;
+  margin-left: 8%;
+  margin-bottom: 5%;;
+}
 
+.about {
+  border: 10px solid orangered;
+  display: inline-flex;
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 75%;
+}
 
 
 
