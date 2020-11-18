@@ -17,32 +17,39 @@ function NavBar() {
     };
 
 
-    const returnAbout = () => {
-        if (width >= 400) return  <Nav.Link href='/about' className='link_text'>about</Nav.Link>
-    }
-    const returnProject = () => {
-        if (width >= 400) return  <Nav.Link href="/projects" className='link_text'>projects</Nav.Link>
-    }
+    // const returnAbout = () => {
+    //     if (width >= 400) return  <Nav.Link href='/about' className='nav_link'>about</Nav.Link>
+    // }
+    // const returnProject = () => {
+    //     if (width >= 400) return  <Nav.Link href="/projects" className='nav_link'>projects</Nav.Link>
+    // }
 
     return (
         <div>
             
-            <Navbar className='nav_bar' expand="lg" >
-            <Navbar.Brand href="/">kellysciandradev</Navbar.Brand>/
-            
-            {returnProject()}
-            {returnAbout()}
-
-            <div className='contact'>
-            <div className='contact_text'>
-            <a href='https://linkedin.com/in/kelly-sciandra-464b371a0'><i class="fab fa-linkedin-in fa-2x"></i></a>
-            <a href='https://github.com/kellysciandra'><i class="fab fa-github fa-2x"></i></a>
-            <a href='mailto:kellysciandradev@icloud.com'><i class="fas fa-envelope-square fa-2x"></i></a>
-            <a href='https://open.spotify.com/artist/0JyCM9EwjQZZzQPGTSM1qc'><i class="fab fa-spotify fa-2x"></i></a>
-            <a href='https://www.instagram.com/kellynobody/'><i class="fab fa-instagram fa-2x"></i></a>
-            </div>
+            <Navbar className='nav_bar'>
+                <main>
+                    <span>
+                        <p>kellysciandradev</p>
+                    </span>
+                </main>
+       
+            {/* {returnProject()}
+            {returnAbout()} */}
+            <div className='nav_links'>
+            <a href='https://linkedin.com/in/kelly-sciandra-464b371a0'  className='nav_links2'>LinkedIn</a>|
+            <a href='https://github.com/kellysciandra' className='nav_links2'>Github</a>|
+            <a href='https://open.spotify.com/artist/0JyCM9EwjQZZzQPGTSM1qc'>Music</a>|
+            <a href='https://www.instagram.com/kellynobody/'>Instagram</a> 
             </div>
             </Navbar>   
+
+            <div className='nav_links_mobile'>
+            <a href='https://linkedin.com/in/kelly-sciandra-464b371a0'  className='nav_links2'>LinkedIn</a>|
+            <a href='https://github.com/kellysciandra' className='nav_links2'>Github</a>|
+            <a href='https://open.spotify.com/artist/0JyCM9EwjQZZzQPGTSM1qc'>Music</a>|
+            <a href='https://www.instagram.com/kellynobody/'>Instagram</a> 
+            </div>
         </div>
     );
 }

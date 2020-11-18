@@ -20,51 +20,59 @@
   * {
     margin: auto;
   }
+  
+  body {
+    height: 150vh
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
 
   .nav_bar {
-    margin: 0rem;
-    padding: 2rem;
-  }
-
-  i.fab, i.fas  {
-    font-size: 1.5rem;
-    padding: .3rem;
-  }
-
-  .contact_text {
-    padding: 0rem;
-    margin-left: 25%;
     display: inline-flex;
-    margin-top: 5%;
+    float: left;
   }
 
-  .contact {
-    margin: 0rem;
-    padding: 0rem;
+  .nav_links {
+   display: none;
   }
 
-  .main {
-    margin: 0;
+  .nav_links_mobile {
+    display: inline-flex;
+    margin-left: 5%;
+  }
+
+  .copy {
+    width: 80%;
+  }
+
+  .bbr {
+    top: 100px;
+    left: -0px;
+    width: 100px;
   }
 
   .photo {
     display: none;
   }
 
-  .photo_mobile {
-    display: inline-flex;
-    width: 70%;
-    background-image: url('./images/Beattree.png');
-    box-shadow: inset 0px 0px 40px 40px rgb(47, 169, 217);
-    background-repeat: unset;
-    background-size: 4px auto;
-    margin-left: 8%;
-    margin-bottom: 5%;
+  .showcase {
+    display: none;
   }
 
-  img {
-    width: 100%;
-    height: auto;
+  .photo_mobile .logo{
+    width: 150px;
+    display: inline-flex;
+    background-image: url('./images/Beattree.png');
+    box-shadow: inset 0px 0px 20px 20px rgb(47, 169, 217);
+    background-repeat: unset;
+    background-size: 2px auto;
+    position: relative;
+    top: -100px;
+    left: 25px;
+    right: 0px;
+    bottom: 0px;
   }
 
   .footer {
@@ -74,8 +82,7 @@
   .footer_mobile {   
     display: inline-flex;
     font-size: .5rem;
-    margin-left: 10%;
-    margin-top: -10%;
+    margin-left: 15%;
   }
 }
 
