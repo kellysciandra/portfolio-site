@@ -1,20 +1,20 @@
 import React from "react";
 import Navbar from 'react-bootstrap/Navbar'
-import { Nav } from 'react-bootstrap'
+
 
 function NavBar() {
-    const [width, setWidth] = React.useState(window.innerWidth);
+    // const [width, setWidth] = React.useState(window.innerWidth);
     // const [height, setHeight] = React.useState(window.innerHeight);
 
-    React.useEffect(() => {
-        window.addEventListener("resize", updateWidthAndHeight);
-        return () => window.removeEventListener("resize", updateWidthAndHeight);
-    });
+    // React.useEffect(() => {
+    //     window.addEventListener("resize", updateWidthAndHeight);
+    //     return () => window.removeEventListener("resize", updateWidthAndHeight);
+    // });
 
-    const updateWidthAndHeight = () => {
-        setWidth(window.innerWidth);
-        // setHeight(window.innerHeight);
-    };
+    // const updateWidthAndHeight = () => {
+    //     setWidth(window.innerWidth);
+    //     setHeight(window.innerHeight);
+    // };
 
 
     // const returnAbout = () => {

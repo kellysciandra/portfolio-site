@@ -3,8 +3,7 @@ import unreleased from '../images/logo_transparent.png'
 import really_good from '../images/logo_transparent_really.png'
 import joya from '../images/logo_transparent_joya.png'
 import dev from '../images/logo_transparent_dev.png'
-import bbr from '../images/bbr.gif'
-import Navbar from 'react-bootstrap/Navbar'
+
 
 export default class Home extends Component {
     constructor() {
@@ -40,6 +39,7 @@ export default class Home extends Component {
                     </div>
                 </div>
                     {/* photo_mobile */}
+
                     <div className='photo_mobile'>
                     <a href='https://itsjoya.com'><img src={joya} alt='' height='' width='' className='logo'/></a>    
                     <a href='https://unreleased.dev'><img src={unreleased}  alt='' height='' width='' className='logo'></img></a>    
