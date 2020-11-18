@@ -60,6 +60,9 @@
   .showcase {
     display: none;
   }
+  .photo_mobile {
+    display: initial;
+  }
 
   .photo_mobile .logo{
     width: 150px;
@@ -67,7 +70,7 @@
     background-image: url('./images/Beattree.png');
     box-shadow: inset 0px 0px 20px 20px rgb(47, 169, 217);
     background-repeat: unset;
-    background-size: 2px auto;
+    background-size: 1px auto;
     position: relative;
     top: -100px;
     left: 25px;

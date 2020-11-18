@@ -39,7 +39,6 @@ export default class Home extends Component {
                     </div>
                 </div>
                     {/* photo_mobile */}
-
                     <div className='photo_mobile'>
                     <a href='https://itsjoya.com'><img src={joya} alt='' height='' width='' className='logo'/></a>    
                     <a href='https://unreleased.dev'><img src={unreleased}  alt='' height='' width='' className='logo'></img></a>    

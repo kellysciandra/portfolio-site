@@ -3,27 +3,6 @@ import Navbar from 'react-bootstrap/Navbar'
 
 
 function NavBar() {
-    // const [width, setWidth] = React.useState(window.innerWidth);
-    // const [height, setHeight] = React.useState(window.innerHeight);
-
-    // React.useEffect(() => {
-    //     window.addEventListener("resize", updateWidthAndHeight);
-    //     return () => window.removeEventListener("resize", updateWidthAndHeight);
-    // });
-
-    // const updateWidthAndHeight = () => {
-    //     setWidth(window.innerWidth);
-    //     setHeight(window.innerHeight);
-    // };
-
-
-    // const returnAbout = () => {
-    //     if (width >= 400) return  <Nav.Link href='/about' className='nav_link'>about</Nav.Link>
-    // }
-    // const returnProject = () => {
-    //     if (width >= 400) return  <Nav.Link href="/projects" className='nav_link'>projects</Nav.Link>
-    // }
-
     return (
         <div>
             
@@ -33,9 +12,7 @@ function NavBar() {
                         <p>kellysciandradev</p>
                     </span>
                 </main>
-       
-            {/* {returnProject()}
-            {returnAbout()} */}
+
             <div className='nav_links'>
             <a href='https://linkedin.com/in/kelly-sciandra-464b371a0'  className='nav_links2'>LinkedIn</a>|
             <a href='https://github.com/kellysciandra' className='nav_links2'>Github</a>|
