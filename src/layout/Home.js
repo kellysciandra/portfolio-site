@@ -17,10 +17,10 @@ export default class Home extends Component {
         return (
             <div>
                 <div className='copy'>
-                Hi. <br/>
-                My name is Kelly Sciandra. <br/>
-                I like to create functional and attractive digital environments, ensuring a great user experience.<br/>
-                Experience with modern JavaScript frameworks, including React, Redux, and Next.js.
+                Hi. <br/><br></br>
+                My name is Kelly Sciandra.<br></br><br></br>
+                <h4>I like to create</h4>functional and attractive digital environments, ensuring a great user experience.<br></br><br></br>
+                <h4>I like to use</h4>modern JavaScript frameworks, including React, Redux, and Next.js.<br></br><br></br>
                 <a href='mailto:kellysciandradev@icloud.com' className='nav_links2'>Email</a>me here if you'd like to work together. 
                 
        
