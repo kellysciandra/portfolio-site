@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # ME
-Note: This is my portfolio site. Not yours. Back off 
+
 
 # Built Using
 - React.js, 16.12.0
